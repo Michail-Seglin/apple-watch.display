@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'K2D';
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background: #222222;
+    border: 10px solid #828282;
+    border-radius: 50px;
+}
+
+.wrapper .main {
+    background-image: url(./assets/Mask\ group.svg);
+    width: 472px;
+    height: 472px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 150px;
+}
+
